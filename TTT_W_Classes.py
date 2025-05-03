@@ -145,7 +145,7 @@ class Game:
         self.current_player = self.player1
         self.game_count += 1
 
-        # Initialize log structure for this game
+        # Initialize log structure
         current_game_log = {"game": self.game_count, "moves": [], "result": None}
 
         while True:
